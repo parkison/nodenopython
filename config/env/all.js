@@ -2,7 +2,7 @@
 
 module.exports = {
 	app: {
-		title: 'Innovation Lab Dashboard',
+		title: 'Add Stuff',
 		description: 'MEAN-M+SQL',
 		keywords: 'Express, AngularJS, Node.js, SQL DB'
 	},

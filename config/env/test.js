@@ -4,7 +4,7 @@ module.exports = {
 	db: 'mongodb://localhost/innovation-lab-dashboard-test',
 	port: 3001,
 	app: {
-		title: 'Innovation Lab Dashboard - Test Environment'
+		title: 'Add Stuff'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',

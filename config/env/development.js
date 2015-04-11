@@ -3,7 +3,7 @@
 module.exports = {
 	db: 'mongodb://localhost/innovation-lab-dashboard-dev',
 	app: {
-		title: 'Innovation Lab Dashboard - Development Environment'
+		title: 'Add Stuff'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
