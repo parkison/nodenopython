@@ -13,7 +13,7 @@ var fs = require('fs'),
 	compress = require('compression'),
 	methodOverride = require('method-override'),
 	cookieParser = require('cookie-parser'),
-	helmet = require('helmet'),
+	// helmet = require('helmet'),
 	flash = require('connect-flash'),
 	config = require('./config'),
 	consolidate = require('consolidate'),
@@ -85,11 +85,11 @@ module.exports = function() {
 	app.use(flash());
 
 	// Use helmet to secure Express headers
-	app.use(helmet.xframe());
-	app.use(helmet.xssFilter());
-	app.use(helmet.nosniff());
-	app.use(helmet.ienoopen());
-	app.disable('x-powered-by');
+	// app.use(helmet.xframe());
+	// app.use(helmet.xssFilter());
+	// app.use(helmet.nosniff());
+	// app.use(helmet.ienoopen());
+	// app.disable('x-powered-by');
 
 	// Setting the app router and static folder
 	app.use(express.static(path.resolve('./public')));
