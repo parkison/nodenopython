@@ -6,7 +6,7 @@ module.exports = {
 		description: 'MEAN-M+SQL',
 		keywords: 'Express, AngularJS, Node.js, SQL DB'
 	},
-	port: process.env.PORT || 3000,
+	port: process.env.PORT || 80,
 	templateEngine: 'swig',
 	sessionSecret: 'MEAN',
 	sessionCollection: 'sessions',
