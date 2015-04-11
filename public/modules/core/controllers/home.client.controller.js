@@ -14,7 +14,7 @@ angular.module('core').controller('HomeController', ['$scope', 'Getadd',
 						 	};
 
 			Getadd.query(params).$promise.then(function(data) {
-				$scope.result = data[0][0];
+				$scope.result = data[0];
 			}); 
 		}
 
